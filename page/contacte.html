@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
+    <link rel="icon" href="../image/favicon.png">
+    <script src="../javascript/script.js"></script>
+
+    <title>Rautel</title>
+</head>
+
+<body>
+
+    <header>
+        <img class="logo" src="../image/logo.png">
+        <navbar>
+            <a href="../index.html">Acasa</a>
+            <a href="despre.html">Despre</a>
+            <a href="exploreaza.html">Exploreaza</a>
+            <a href="contacte.html">Contacte</a>
+            <a href="traditii.html">Traditii</a>
+            <a href="locdate.html">Date Locuitori</a>
+        </navbar>
+        <i id="hamburger" onclick="mobileMenu()" class="fa-solid fa-bars" ></i>
+    </header>
+
+    <main>
+        <section>
+            <h1 class="centered">Contactele Satului Rautel</h1>
+
+            <div class="row">
+
+                <div class="col-50">
+                    
+                    <div class="contacte">
+                        <h2 class="centered">Date de contact</h2>
+                        <b>Primaria: </b>
+                        <a href="mailto:PrimariaRautel@gmail.com" target="_blank">PrimariaRautel@gmail.com</a><br>
+                        <a href="https://data2b.md/ro/companies/1007601002717/primaria-satului-rautel/" target="_blank">025910212</a>
+                        <br><br>
+                        <b>Posta: </b>
+                        <a href="mailto:PostaRautel@gmail.com" target="_blank">PostaRautel@gmail.com</a><br>
+                        <a href="https://www.posta.md/ro/map/post_office" target="_blank">025954233</a>
+                        <br><br>
+                        <b>Gimnaziul: </b>
+                        <a href="mailto:GIM-A-Mateevici@gamil.com" target="_blank">GIM-A-Mateevici@gamil.com</a><br>
+                        <a href="https://www.facebook.com/p/Institu%C8%9Bia-Public%C4%83-Gimnaziul-Alexei-Mateevici-R%C4%83u%C8%9Bel-100066489400001/" target="_blank">PR67+QF Реуцел, Молдова</a>
+                        <br><br>
+                    </div>
+
+                </div>
+                <div class="col-50">
+                    <form class="cform" action="mailto: PrimariaRautel@gmail.com" method="post" enctype="text/plain">
+                        <h2 class="centered">Contacteaza cu noi aici</h2>
+                        <input type="text" placeholder="Nume Prenume">
+                        <input type="text" placeholder="e-mail">
+                        <input type="text" placeholder="Subiect">
+                        <textarea rows="4" placeholder="Mesajul"></textarea>
+                        <input type="submit" value="Transmite">
+                    </form>
+                </div>
+
+            </div>
+            <div class="review-container">
+    <h2>Lasă o recenzie</h2>
+    <form id="review-form">
+        <div class="form-group">
+            <label for="name">Nume complet:</label>
+            <input type="text" id="name" name="name" required placeholder="Ex: Ion Popescu">
+        </div>
+
+        <div class="form-group">
+            <label>Evaluare:</label>
+            <div class="star-rating">
+                <input type="radio" id="star5" name="rating" value="5"><label for="star5">1★</label>
+                <input type="radio" id="star4" name="rating" value="4"><label for="star4">2★</label>
+                <input type="radio" id="star3" name="rating" value="3"><label for="star3">3★</label>
+                <input type="radio" id="star2" name="rating" value="2"><label for="star2">4★</label>
+                <input type="radio" id="star1" name="rating" value="1"><label for="star1">5★</label>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label for="review-text">Mesajul tău:</label>
+            <textarea id="review-text" name="review" rows="4" required placeholder="Spune-ne părerea ta..."></textarea>
+        </div>
+
+        <button type="submit" class="submit-btn">Trimite Recenzia</button>
+    </form>
+</div>
+            <br>
+            <iframe class="harta"
+                src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d2684.106524874625!2d27.827060075768042!3d47.721181580058875!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zNDfCsDQzJzE2LjIiTiAyN8KwNDknNDYuNyJF!5e0!3m2!1sru!2s!4v1775468745670!5m2!1sru!2s"
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </section>
+    </main>
+    <footer>
+        <span><sup>ⓒ</sup>Serbusca Dorin</span>
+    </footer>
+
+</body>
+
+</html>
