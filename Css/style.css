@@ -17,10 +17,15 @@ main{
 
 header{
     background: green;
+    min-height: 80px;
+    text-align: center;
     position: fixed;
     width: 100%;
     top: 0;
     padding: 10px 15px 5px 15px;
+    padding-top: 35px;
+    margin-top: auto;
+    
 }
 
 navbar {
@@ -47,6 +52,8 @@ footer{
     background: green;
     text-align: center;
     color: white;
+    padding-top: 35px;
+    margin-tiop: auto;
 }
 
 p {
